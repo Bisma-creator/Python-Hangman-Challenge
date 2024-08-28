@@ -58,6 +58,3 @@ while '_' in current_State and attempts_left > 0:
         break
     elif attempts_left == 0:
         print(f"You have 0 attempts left! The word was '{selected_word}'. Better luck next time!")
-
-# display_current_state(current_State)
-
